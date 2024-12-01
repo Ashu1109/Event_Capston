@@ -15,7 +15,8 @@ export const metadata: Metadata = {
   description: 'Evently is a platform for event management.',
   icons: {
     icon: '/assets/images/logo.svg'
-  }
+  },
+  manifest:"/manifest.json",
 }
 
 export default function RootLayout({
